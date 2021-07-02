@@ -28,6 +28,8 @@ jupyter notebook
 ```
 then click on 'main.ipynb' to open the Jupyter Notebook.
 
-Alternatively, the notebook can be run directly using binder in a web browser using the following link:
+## Running in browser
 
-https://mybinder.org/v2/gh/ess-dg/neutron_shielding_calculations/HEAD
+Alternatively to the installation methods stated above, it is also possible to run the notebook directly in the browser using binder. Just click on the link below, wait for binder to compile and the click on 'main.ipynb' to open the Jupyter Notebook.
+
+Link: https://mybinder.org/v2/gh/ess-dg/neutron_shielding_calculations/HEAD
