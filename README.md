@@ -27,3 +27,13 @@ Open a terminal, navigate to 'neutron_shielding_calculations' and run the comman
 jupyter notebook
 ```
 then click on 'main.ipynb' to open the Jupyter Notebook.
+
+## Basic usage
+
+After opening the notebook, make sure to run the cells in the correct order the first time running the notebook. Otherwise, code snippets further down the notebook might be missing dependecies which are declared earlier.
+
+## Running in browser
+
+Alternatively to the installation methods stated above, it is also possible to run the notebook directly in the browser using binder. Just click on the link below, wait for binder to compile and then click on 'main.ipynb' to open the Jupyter Notebook.
+
+Link: https://mybinder.org/v2/gh/ess-dg/neutron_shielding_calculations/HEAD
