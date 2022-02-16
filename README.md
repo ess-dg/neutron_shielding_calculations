@@ -4,15 +4,22 @@ This repository contains tools for calculating neutron transmission and albedo p
 
 In this repository, there is also a data folder with two subfolders which contains all the data used in the analysis. The 'material_data'-subfolder contains all the cross-sections files used for the analysis, while the 'simulation_results'-subfolder contains the simulations results used to evaluate the validity of the analytical calculations. The format of the data is presented below in the 'Data'-section.
 
+## Running in browser
+
+Alternatively to the installation method stated below, it is possible to run the notebook directly in the browser using binder. Simply click on the link below, wait for binder to compile and then click on 'main.ipynb' to open the Jupyter Notebook.
+
+Link: https://mybinder.org/v2/gh/ess-dg/neutron_shielding_calculations/HEAD
+
 ## Requisties
 - Python3 (https://www.python.org/downloads/)
-- Jupyter Notebook (https://jupyter.org/)
+- LaTeX (https://www.latex-project.org/get/)
+- Jupyter (https://jupyter.org/)
 
 ## Installation
 
-First, install Python3 according to the instructions on the website.
+First, install Python3 and LaTeX according to the instructions on their respective websites.
 
-Then, install Jupyter Notebook according to:
+Then, install Jupyter according to:
 ```
 python -m pip install jupyter 
 ```
@@ -26,19 +33,13 @@ git clone https://github.com/ess-dg/neutron_shielding_calculations.git
 
 Open a terminal, navigate to 'neutron_shielding_calculations' and run the command:
 ```
-jupyter notebook
+jupyter lab
 ```
 then click on 'main.ipynb' to open the Jupyter Notebook.
 
 ## Basic usage
 
 After opening the notebook, make sure to run the cells in the correct order the first time running the notebook. Otherwise, code snippets further down the notebook might be missing dependecies which are declared earlier.
-
-## Running in browser
-
-Alternatively to the installation methods stated above, it is also possible to run the notebook directly in the browser using binder. Just click on the link below, wait for binder to compile and then click on 'main.ipynb' to open the Jupyter Notebook.
-
-Link: https://mybinder.org/v2/gh/ess-dg/neutron_shielding_calculations/HEAD
 
 ## Data
 The data format of the files in two data subfolders, 'material_data' and 'simulation_results', are presented below, resepctively.
