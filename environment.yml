@@ -2,9 +2,9 @@ name: environment
 channels:
   - conda-forge
 dependencies:
-  - numpy
-  - matplotlib
-  - ipython
+  - numpy=1.20.1
+  - matplotlib=3.3.4
+  - ipython=7.22.0
   - ipywidgets
   - jupyterlab
   - ipympl
